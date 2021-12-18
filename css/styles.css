@@ -34,13 +34,12 @@ ul {
   line-height: 1.1;
   letter-spacing: 0.03em;
   text-decoration: none;
-  color: #000000;
 }
 .logo:hover {
   color: var(--accent-color);
 }
 .logo:focus {
-  color: #2f303a;
+  color: var(--accent-color);
 }
 .web {
   color: #2196f3;
@@ -52,6 +51,9 @@ ul {
   color: #212121;
 }
 .studio:hover {
+  color: var(--accent-color);
+}
+.studio:focus {
   color: var(--accent-color);
 }
 
@@ -673,7 +675,6 @@ ul {
   letter-spacing: 0.03em;
   text-decoration: none;
 }
-
 .footerstudio:hover,
 .footerstudio:focus {
   color: var(--accent-color);

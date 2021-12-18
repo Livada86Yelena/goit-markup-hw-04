@@ -36,7 +36,7 @@ ul {
   text-decoration: none;
   color: #000000;
 }
-.logo :hover {
+.logo:hover {
   color: var(--accent-color);
 }
 .logo:focus {
@@ -46,13 +46,16 @@ ul {
   color: #2196f3;
 }
 
-
 /* Navigation */
 
 .studio {
   color: #212121;
 }
-.site-nav-list{
+.studio:hover {
+  color: var(--accent-color);
+}
+
+.site-nav-list {
   text-decoration: none;
 }
 
@@ -116,31 +119,25 @@ ul {
   text-decoration: none;
   color: #212121;
 
-  margin-right: 50px;}
+  margin-right: 50px;
+}
 
 .link:hover {
- color: var(--accent-color);
+  color: var(--accent-color);
 }
 .link:focus {
-color: #212121
-background-color: var(--accent-color);
+  color: var(--accent-color);
 }
-.link-portfolio:hover {
- color: var(--accent-color);
-}
+.link-portfolio:hover,
 .link-portfolio:focus {
-color: #212121
-background-color: var(--accent-color);
-}
-.link-contacts:hover {
- color: var(--accent-color);
-}
-.link-contacts:focus {
-color: #212121
-background-color: var(--accent-color);
+  color: var(--accent-color);
 }
 
- 
+.link-contacts:hover,
+.link-contacts:focus {
+  color: var(--accent-color);
+}
+
 .link-studio {
   font-family: Roboto;
   font-weight: 500;
@@ -199,10 +196,8 @@ background-color: var(--accent-color);
   fill: var(--accent-color);
 }
 .e-mail-main:focus {
-  fill:
-#212121;
-  color:
-#212121
+  color: var(--accent-color);
+  fill: var(--accent-color);
 }
 
 .phone {
@@ -218,13 +213,10 @@ background-color: var(--accent-color);
   color: var(--accent-color);
   fill: var(--accent-color);
 }
-.phone:focus
-{ fill:
-#212121;
-  color:
-#212121
+.phone:focus {
+  color: var(--accent-color);
+  fill: var(--accent-color);
 }
-
 
 /* Hero */
 .hero {
@@ -270,23 +262,32 @@ background-color: var(--accent-color);
   margin: 30px auto 0 auto;
 }
 
-.button:hover,
-:focus {
+.button:hover {
   color: var(--primery-white-color);
   background: var(--accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
-
-.button-portfolio-one:hover,
-:focus {
+.button:focus {
+  color: var(--primery-white-color);
+  background: var(--accent-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+.button-portfolio-one:hover {
+  color: var(--primery-white-color);
+  background: var(--accent-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+.button-portfolio-one:focus {
   color: var(--primery-white-color);
   background: var(--accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .button-portfolio-two:hover,
-:focus {
+.button-portfolio-two:focus {
   color: var(--primery-white-color);
   background: var(--accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
@@ -294,14 +295,14 @@ background-color: var(--accent-color);
 }
 
 .button-portfolio-three:hover,
-:focus {
+.button-portfolio-three:focus {
   color: var(--primery-white-color);
   background: var(--accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .button-portfolio-four:hover,
-:focus {
+.button-portfolio-four:focus {
   color: var(--primery-white-color);
   background: var(--accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
@@ -502,7 +503,7 @@ background-color: var(--accent-color);
 .socialn {
   display: block;
   fill: #afb1b8;
-  border-color: var(--accent-color)
+  border-color: var(--accent-color);
 }
 .icon {
   display: flex;
@@ -529,7 +530,7 @@ background-color: var(--accent-color);
   border-radius: 50%;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
-    background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.1);
 }
 .social:hover {
   fill: #ffffff;
@@ -632,7 +633,7 @@ background-color: var(--accent-color);
   border: 1px solid var(--accent-color);
 }
 .btn-client:focus {
-  fill: var(--primery-white-color);
+  fill: var(--accent-color);
   border: 1px solid var(--accent-color);
 }
 
@@ -653,7 +654,7 @@ background-color: var(--accent-color);
   color: #ffffff;
 }
 .connect:hover,
-:focus {
+.connect:focus {
   color: var(--accent-color);
 }
 .network {
@@ -674,7 +675,7 @@ background-color: var(--accent-color);
 }
 
 .footerstudio:hover,
-:focus {
+.footerstudio:focus {
   color: var(--accent-color);
 }
 .contacts {
@@ -701,14 +702,14 @@ background-color: var(--accent-color);
   margin-bottom: 9px;
 }
 .contacts-tittle:hover,
-:focus {
+.contacts-tittle:focus {
   color: var(--accent-color);
 }
 .footer-mail {
   margin-bottom: 9px;
 }
 .contacts-tittle-link:hover,
-:focus {
+.contacts-tittle-link:focus {
   color: var(--accent-color);
 }
 .contacts-tittle-link {
@@ -749,7 +750,7 @@ background-color: var(--accent-color);
   margin: 0;
 }
 .projects-tittle:hover,
-:focus {
+.projects-tittle:focus {
   color: var(--accent-color);
 }
 
@@ -763,7 +764,7 @@ background-color: var(--accent-color);
   margin: 0;
 }
 .works:hover,
-:focus {
+.works:focus {
   color: var(--accent-color);
 }
 .product {

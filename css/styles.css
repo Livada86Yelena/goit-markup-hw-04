@@ -35,10 +35,10 @@ ul {
   letter-spacing: 0.03em;
   text-decoration: none;
 }
-.logo:hover {
+.logo:hover .studio {
   color: var(--accent-color);
 }
-.logo:focus {
+.logo:focus .studio {
   color: var(--accent-color);
 }
 .web {
@@ -49,12 +49,6 @@ ul {
 
 .studio {
   color: #212121;
-}
-.studio:hover {
-  color: var(--accent-color);
-}
-.studio:focus {
-  color: var(--accent-color);
 }
 
 .site-nav-list {
@@ -675,8 +669,10 @@ ul {
   letter-spacing: 0.03em;
   text-decoration: none;
 }
-.footerstudio:hover,
-.footerstudio:focus {
+.logo-footer .footerstudio:hover {
+  color: var(--accent-color);
+}
+.logo-footer .footerstudio:focus {
   color: var(--accent-color);
 }
 .contacts {

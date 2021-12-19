@@ -599,6 +599,7 @@ ul {
 .icon {
   fill: var(--primery-white-color);
 }
+
 .icon-list .hover-icon:last-child {
   margin: 0;
 }

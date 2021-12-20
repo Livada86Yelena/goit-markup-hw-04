@@ -497,7 +497,7 @@ ul {
 .socialn {
   display: block;
   fill: #afb1b8;
-  border-color: var(--accent-color);
+  background-color:rgba(255, 255, 255, 0.1);;
 }
 .icon {
   display: flex;
@@ -520,6 +520,7 @@ ul {
   width: 44px;
   height: 44px;
   border-radius: 50%;
+ 
 }
 .social:hover {
   fill: #ffffff;
